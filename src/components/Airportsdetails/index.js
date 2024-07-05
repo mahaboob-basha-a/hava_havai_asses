@@ -86,10 +86,8 @@ export default class Airportdetails extends Component {
         <Switch aria-label="Low power mode">Show Image</Switch>
         <TextArea label="Description" width='1000' defaultValue='Type here' />
         </div>
-        <Button 
-              variant="primary"
-              staticColor="black"
-              style="fill">Save</Button>
+        {/* eslint-disable-next-line */}
+        <Button style="fill" variant="primary" staticColor="black">Save</Button>
       </div>
       <div className='service-list'>
       <Heading level={5}>Lounge</Heading>
