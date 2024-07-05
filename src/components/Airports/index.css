@@ -1,0 +1,32 @@
+.airports-page{
+    height: calc(100vh - 45px);
+    width: calc(100vw - 260px);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+}
+.airports-page .airports-page-topbar{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table-container{
+    width: 95%;
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+}
+.table-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 28px;
+}
+.table-ul li{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
