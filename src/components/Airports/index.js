@@ -43,7 +43,7 @@ let airportData = [
         terminals:14
     },
 ]
-export default class Airports extends Component {
+class Airports extends Component {
   state = {airportItems:airportData,itemData:{airport:'',country:'',code:'',terminals:''},isEdit:false}
   onInputChanging = (e)=>{
     this.setState(prev=> ({itemData:{...prev.itemData,[e.target.name]:e.target.value}}))
@@ -183,3 +183,4 @@ export default class Airports extends Component {
     )
   }
 }
+export default Airports
