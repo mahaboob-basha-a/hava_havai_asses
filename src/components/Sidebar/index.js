@@ -1,7 +1,6 @@
 import React from 'react'
 import { TiHome } from "react-icons/ti";
 import { RxDashboard } from "react-icons/rx";
-import { NavLink } from 'react-router-dom';
 import './index.css'
 
 export default function Sidebar() {

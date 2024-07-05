@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 
-export default function () {
+export default function Navbar() {
   return (
     <nav className='nav-bar'>
         <h1 className='nav-title'>hava havai</h1>

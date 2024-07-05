@@ -90,14 +90,13 @@ export default class Airports extends Component {
     const {airportItems,itemData} = this.state
     const {airport,country,code,terminals} = itemData
     return (
+      
       <div className='airports-page'>
         <div className='airports-page-topbar'>
         <Heading level={4}>Airports</Heading>
         <DialogTrigger>
-          <Button 
-              variant="primary"
-              staticColor="black"
-              style="fill">+ Add new</Button>
+          {/* eslint-disable-next-line */}
+          <Button staticColor="black" style={'fill'} variant="primary">+ Add new</Button>
         {(close) => (
           <Dialog>
             <Heading>Add New</Heading>
